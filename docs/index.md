@@ -3,18 +3,21 @@ layout: home
 
 hero:
   name: hi-go
-  text: pnpm + VitePress + Go
-  tagline: A minimal documentation site with a Go hello world example.
+  text: Go 学习笔记
+  tagline: 使用 VitePress 整理 Go 语法和常见问题。
   actions:
     - theme: brand
-      text: View Go Example
-      link: /go-hello-world
+      text: 查看语法
+      link: /syntax/variables
+    - theme: alt
+      text: 查看 QA
+      link: /qa/hello-world
 
 features:
-  - title: VitePress
-    details: Fast documentation powered by Vite and Vue.
-  - title: pnpm
-    details: Reproducible package installs with a committed lockfile.
-  - title: Go
-    details: A tiny hello world program that can be run from the repository.
+  - title: 语法
+    details: 记录变量定义等 Go 基础语法。
+  - title: QA
+    details: 汇总学习和运行示例时的常见问题。
+  - title: 示例
+    details: 包含一个可以直接运行的 Go Hello World 程序。
 ---

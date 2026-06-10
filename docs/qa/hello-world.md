@@ -1,4 +1,4 @@
-# Go Hello World
+# Hello World
 
 This repository includes a small Go program in `examples/hello-world`.
 

@@ -2,19 +2,24 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: 'hi-go',
-  description: 'A VitePress site with a Go hello world example.',
+  description: 'Go learning notes powered by VitePress.',
   base: process.env.BASE_URL ?? '/hi-go/',
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Go Hello World', link: '/go-hello-world' }
+      { text: '首页', link: '/' },
+      { text: '语法', link: '/syntax/variables' },
+      { text: 'QA', link: '/qa/hello-world' }
     ],
     sidebar: [
       {
-        text: 'Guide',
+        text: '语法',
+        items: [{ text: '变量定义', link: '/syntax/variables' }]
+      },
+      {
+        text: 'QA',
         items: [
-          { text: 'Overview', link: '/' },
-          { text: 'Go Hello World', link: '/go-hello-world' }
+          { text: 'Hello World', link: '/qa/hello-world' },
+          { text: 'Go 的逃逸分析是什么', link: '/qa/escape-analysis' }
         ]
       }
     ],
