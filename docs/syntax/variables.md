@@ -6,39 +6,21 @@ Go 中常见的变量定义方式有 `var` 声明和短变量声明 `:=`。
 
 `var` 可以显式指定变量类型：
 
-```go
-var name string = "Go"
-var age int = 15
-```
+<<< ../../examples/syntax/variables/main.go#explicit-var
 
 如果初始值能推断出类型，也可以省略类型：
 
-```go
-var name = "Go"
-var age = 15
-```
+<<< ../../examples/syntax/variables/main.go#inferred-var
 
 还可以一次声明多个变量：
 
-```go
-var (
-	name = "Go"
-	age  = 15
-)
-```
+<<< ../../examples/syntax/variables/main.go#grouped-var
 
 ## 使用短变量声明
 
 在函数内部，可以使用 `:=` 声明并初始化变量：
 
-```go
-func main() {
-	name := "Go"
-	age := 15
-
-	fmt.Println(name, age)
-}
-```
+<<< ../../examples/syntax/variables/main.go#short-declaration
 
 短变量声明只能在函数内部使用，不能用于包级变量。
 
@@ -46,11 +28,7 @@ func main() {
 
 声明变量但没有显式赋值时，变量会使用对应类型的零值：
 
-```go
-var count int
-var title string
-var enabled bool
-```
+<<< ../../examples/syntax/variables/main.go#zero-values
 
 常见零值包括：
 
