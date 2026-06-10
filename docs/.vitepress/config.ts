@@ -18,8 +18,6 @@ export default defineConfig({
         ]
       }
     ],
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/Huauauaa/hi-go' }
-    ]
+    socialLinks: [{ icon: 'github', link: 'https://github.com/Huauauaa/hi-go' }]
   }
 })
