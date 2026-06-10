@@ -8,7 +8,8 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '语法', link: '/syntax/variables' },
-      { text: 'issue', link: '/issue/hello-world' }
+      { text: 'QA', link: '/qa/hello-world' },
+      { text: 'issue', link: 'https://github.com/Huauauaa/hi-go/issues' }
     ],
     sidebar: [
       {
@@ -16,10 +17,10 @@ export default defineConfig({
         items: [{ text: '变量定义', link: '/syntax/variables' }]
       },
       {
-        text: 'issue',
+        text: 'QA',
         items: [
-          { text: 'Hello World', link: '/issue/hello-world' },
-          { text: 'Go 的逃逸分析是什么', link: '/issue/escape-analysis' }
+          { text: 'Hello World', link: '/qa/hello-world' },
+          { text: 'Go 的逃逸分析是什么', link: '/qa/escape-analysis' }
         ]
       }
     ],
