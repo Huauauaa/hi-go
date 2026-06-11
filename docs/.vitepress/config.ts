@@ -5,6 +5,8 @@ export default defineConfig({
   description: 'Go learning notes powered by VitePress.',
   base: process.env.BASE_URL ?? '/hi-go/',
   themeConfig: {
+    logo: '/logo.svg',
+    siteTitle: false,
     nav: [
       { text: 'issue', link: 'https://github.com/Huauauaa/hi-go/issues' }
     ],

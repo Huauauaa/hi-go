@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="logo">
+  <defs>
+    <linearGradient id="badge" x1="10" x2="54" y1="8" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#62e6ff" />
+      <stop offset="1" stop-color="#36d399" />
+    </linearGradient>
+    <linearGradient id="shadow" x1="20" x2="48" y1="18" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f172a" stop-opacity=".22" />
+      <stop offset="1" stop-color="#0f172a" stop-opacity=".08" />
+    </linearGradient>
+  </defs>
+  <path
+    fill="url(#badge)"
+    d="M32 5.5c14.64 0 26.5 11.86 26.5 26.5S46.64 58.5 32 58.5 5.5 46.64 5.5 32 17.36 5.5 32 5.5Z"
+  />
+  <path
+    fill="#ffffff"
+    fill-opacity=".28"
+    d="M22 9.8A26.62 26.62 0 0 1 32 7.8c13.37 0 24.2 10.83 24.2 24.2 0 3.54-.76 6.9-2.12 9.93C48.15 21.56 34.54 12.48 22 9.8Z"
+  />
+  <path
+    fill="url(#shadow)"
+    d="M16 35.5c0-9.1 7.16-16.5 16-16.5s16 7.4 16 16.5c0 8.01-6.02 13-16 13s-16-4.99-16-13Z"
+  />
+  <path
+    fill="#f8fafc"
+    d="M16 32.5c0-9.1 7.16-16.5 16-16.5s16 7.4 16 16.5c0 8.01-6.02 13-16 13s-16-4.99-16-13Z"
+  />
+  <circle cx="22" cy="29" r="7" fill="#f8fafc" />
+  <circle cx="42" cy="29" r="7" fill="#f8fafc" />
+  <circle cx="25" cy="32" r="3.5" fill="#0f172a" />
+  <circle cx="39" cy="32" r="3.5" fill="#0f172a" />
+  <path
+    fill="none"
+    stroke="#0f172a"
+    stroke-linecap="round"
+    stroke-width="3.5"
+    d="M28 39c2.3 2 5.7 2 8 0"
+  />
+  <path
+    fill="none"
+    stroke="#f8fafc"
+    stroke-linecap="round"
+    stroke-width="4"
+    d="M12.5 25.5h-5M56.5 25.5h-5M13.5 33h-7M57.5 33h-7"
+  />
+</svg>
